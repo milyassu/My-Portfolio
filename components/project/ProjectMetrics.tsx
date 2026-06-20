@@ -23,10 +23,10 @@ export default function ProjectMetrics({
         <div
           key={metric.label}
           className="
-            bg-white
-            rounded-3xl
+            bg-card
+            rounded-lg
             border
-            border-slate-200
+            border-border
             p-8
             shadow-sm
             hover:shadow-lg
@@ -37,13 +37,13 @@ export default function ProjectMetrics({
             className="
             text-3xl
             font-bold
-            text-blue-700
+            text-primary
             "
           >
             {metric.value}
           </h3>
 
-          <p className="mt-2 text-slate-600">
+          <p className="mt-2 text-muted-foreground">
             {metric.label}
           </p>
         </div>

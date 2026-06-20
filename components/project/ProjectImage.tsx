@@ -17,10 +17,12 @@ export default function ProjectImage({
         width={1400}
         height={900}
         className="
-        rounded-2xl
+        rounded-lg
         shadow-md
         w-full
+        h-auto
         "
+        style={{ height: "auto" }}
       />
     </div>
   );
