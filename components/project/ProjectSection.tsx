@@ -23,7 +23,7 @@ export default function ProjectSection({
 
       <div
         className="
-        text-slate-600
+        text-muted-foreground
         leading-8
         "
       >

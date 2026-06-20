@@ -22,10 +22,10 @@ export default function ProjectHero({
         className="
         absolute
         inset-0
-        bg-gradient-to-r
-        from-blue-50
-        via-white
-        to-sky-50
+        bg-linear-to-r
+        from-muted/50
+        via-background
+        to-muted/20
         -z-10
         "
       />
@@ -34,7 +34,7 @@ export default function ProjectHero({
 
         <p
           className="
-          text-blue-700
+          text-primary
           font-semibold
           uppercase
           tracking-wider
@@ -59,7 +59,7 @@ export default function ProjectHero({
           className="
           mt-8
           text-xl
-          text-slate-600
+          text-muted-foreground
           leading-9
           "
         >

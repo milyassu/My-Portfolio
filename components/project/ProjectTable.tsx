@@ -16,13 +16,13 @@ export default function ProjectTable({
         className="
         w-full
         border
-        border-slate-200
-        rounded-xl
+        border-border
+        rounded-lg
         overflow-hidden
         "
       >
         <thead>
-          <tr className="bg-slate-100">
+          <tr className="bg-muted">
 
             {headers.map((header) => (
               <th
@@ -46,7 +46,7 @@ export default function ProjectTable({
               key={index}
               className="
               border-t
-              border-slate-200
+              border-border
               "
             >
               {row.map((cell) => (

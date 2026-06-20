@@ -1,6 +1,5 @@
-"use client"; 
+"use client";
 import { motion } from "framer-motion";
-import FadeIn from "./animations/FadeIn";
 export default function Stats() {
   const stats = [
     {
@@ -22,7 +21,7 @@ export default function Stats() {
   ];
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-5 bg-background">
       <div className="max-w-6xl mx-auto px-6">
         <div
           className="
@@ -44,23 +43,23 @@ export default function Stats() {
               className="
       text-center
       p-8
-      rounded-2xl
+      rounded-lg
       border
-      border-slate-200
-      bg-white
+      border-border
+      bg-card
     "
             >
               <h3
                 className="
                 text-4xl
                 font-bold
-                text-blue-700
+                text-primary
                 "
               >
                 {item.value}
               </h3>
 
-              <p className="mt-2 text-slate-600">{item.label}</p>
+              <p className="mt-2 text-muted-foreground">{item.label}</p>
             </motion.div>
           ))}
         </div>
