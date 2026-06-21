@@ -51,7 +51,7 @@ export const projects = [
   {
     slug: "route-optimization",
 
-    title: "Route Optimization Using Dijkstra",
+    title: "Route Optimization Using Dijkstra Algorithm",
 
     category: "Mathematical Modeling",
 

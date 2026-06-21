@@ -90,13 +90,29 @@ export default function Hero() {
             variants={itemVariants}
             className="flex flex-wrap gap-2.5 mt-6"
           >
-            <span className="px-3.5 py-1.5 rounded-md bg-muted border border-border text-muted-foreground text-xs font-medium transition-colors duration-300">
+            {/* Mathematics Student — blue */}
+            <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-md text-xs font-semibold border transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_12px_rgba(99,102,241,0.35)] bg-indigo-500/10 border-indigo-400/30 text-indigo-400 dark:text-indigo-300">
+              <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M4 19 L8 5 L12 15 L16 9 L20 19" />
+              </svg>
               Mathematics Student
             </span>
-            <span className="px-3.5 py-1.5 rounded-md bg-muted border border-border text-muted-foreground text-xs font-medium transition-colors duration-300">
+
+            {/* BNSP Certified — amber */}
+            <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-md text-xs font-semibold border transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_12px_rgba(245,158,11,0.35)] bg-amber-500/10 border-amber-400/30 text-amber-500 dark:text-amber-300">
+              <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z" />
+              </svg>
               BNSP Certified
             </span>
-            <span className="px-3.5 py-1.5 rounded-md bg-muted border border-border text-muted-foreground text-xs font-medium transition-colors duration-300">
+
+            {/* Data Scientist — violet */}
+            <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-md text-xs font-semibold border transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_12px_rgba(167,139,250,0.35)] bg-violet-500/10 border-violet-400/30 text-violet-500 dark:text-violet-300">
+              <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="3" />
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" />
+                <path d="M2 12h4M18 12h4M12 2v4M12 18v4" />
+              </svg>
               Data Scientist
             </span>
           </motion.div>
@@ -160,7 +176,7 @@ export default function Hero() {
             </div>
 
             {/* UBAH INI YAS AWOKWOKWOKWKO */}
-            <Pointer>
+            {/* <Pointer>
               <motion.div
                 animate={{
                   scale: [0.8, 1, 0.8],
@@ -195,7 +211,7 @@ export default function Hero() {
                   </g>
                 </svg>
               </motion.div>
-            </Pointer>
+            </Pointer> */}
           </div>
         </motion.div>
       </div>

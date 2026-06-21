@@ -1,6 +1,7 @@
 export const skills = {
   programming: [
     "Python",
+    "C++",
     "SQL",
     "PySpark",
     "Git",
@@ -17,14 +18,16 @@ export const skills = {
     "Classification",
     "Regression",
     "Clustering",
+
+
     "Model Evaluation",
   ],
 
   visualization: [
     "Power BI",
+    "Tableau",
     "Looker Studio",
-    "Matplotlib",
-    "Seaborn",
+    "Excel"
   ],
 };
 

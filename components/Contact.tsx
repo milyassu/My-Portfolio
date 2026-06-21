@@ -26,7 +26,7 @@ export default function Contact() {
 
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight text-foreground">
               Let's build something{" "}
-              <span className="text-primary">scientific</span> together.
+              <span className="text-primary">impactful</span> together.
             </h2>
 
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
