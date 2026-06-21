@@ -129,6 +129,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.25, ease: "easeInOut" }}
+            style={{ overflow: "hidden" }}
             className="border-t border-border/40 bg-background/95 md:hidden"
           >
             <div className="flex flex-col gap-4 px-6 py-5">
@@ -137,8 +138,8 @@ export default function Navbar() {
                   key={link.name}
                   href={link.href}
                   onClick={(e) => {
-                    setMobileMenuOpen(false);
                     handleNavClick(e, link.href);
+                    setMobileMenuOpen(false);
                   }}
                   className="text-base font-medium text-muted-foreground transition-colors hover:text-foreground"
                 >

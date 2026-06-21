@@ -18,8 +18,6 @@ export const skills = {
     "Classification",
     "Regression",
     "Clustering",
-
-
     "Model Evaluation",
   ],
 
